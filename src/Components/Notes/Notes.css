@@ -1,0 +1,38 @@
+.mainn{
+    display: flex;
+    gap: 10px;
+    flex-wrap:wrap ;
+}
+.note button{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.note button:hover{
+    box-shadow: 0px 5px 5px rgba(64, 64, 64, 0.427);
+}
+.note{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-start ;
+    flex-direction: column;
+    gap: 3px;
+    width: 290px;
+    margin: 20px 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px rgba(90, 255, 215, 0.63);
+    overflow-wrap: break-word;
+}
+.mainn p , .mainn h2{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
+.mainn p{
+    margin-top: -7px;
+    margin-bottom: 3px;
+}
